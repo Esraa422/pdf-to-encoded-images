@@ -16,10 +16,21 @@ It supports different compression modes and allows controlling the maximum total
 
 ## Project Structure
 
-pdf_encoder/ → core module implementation
-main.py → example script to run the module
-examples/ → sample PDF files
-tests/ → basic tests
+pdf_encoder/  → core module implementation
+main.py       → example script to run the module
+examples/     → sample PDF files
+tests/        → basic tests
+
+## Implementation Approach
+The implementation was developed incrementally:
+
+1. Set up project structure
+2. Implement PDF to image conversion
+3. Add image encoding
+4. Implement compression logic
+5. Add processing pipeline
+6. Add basic tests
+7. Finalize documentation
 
 ## Requirements
 
